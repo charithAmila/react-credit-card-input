@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-credit-card-input'
+import CreditCardInput from 'react-credit-card-input'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <CreditCardInput text='Modern React component module' />
       </div>
     )
   }

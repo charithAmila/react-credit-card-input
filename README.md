@@ -15,15 +15,18 @@ npm install --save react-credit-card-input
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-credit-card-input'
+import CreditCardInput from 'react-credit-card-input'
 
-class Example extends Component {
+export default class App extends Component {
   render () {
     return (
-      <MyComponent />
+      <div>
+        <CreditCardInput text='Modern React component module' />
+      </div>
     )
   }
 }
+
 ```
 
 ## License
